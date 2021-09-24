@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Happy Birthday to u</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css01.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="my_audio" src="ms/hpbd.MP3" loop="loop"></audio>
+    <div class="container-fluid">
+        <div class="jumbotron img_banner_hpbd">
+            <div class="text-center text-danger bg-danger">
+                <h1>Vũ Thị Minh Đức</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-4 col-md-4 col-sm-4">
+                <p style="padding-top: 5px"></p>
+                <span class="text-capitalize text-right bottom-align-text">
+                    <button type="button" class="btn btn-danger btn-lg text-danger" data-toggle="modal" data-target="#myModal">
+                        OPEN CARD
+                    </button>
+                    <p></p>
+            </div>
+            <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
+                <button type="button" class="">
+                   
+                    </button>
+                <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
+                    src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 360px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title text-info" id="myModalLabel">Thiệp sinh nhật</h4>
+
+            </div>
+            <div class="modal-body">
+                <div class="containeri">
+                    <img class="img img-responsive flipp" src="img/Winter happy birthday.jpg" alt="80x80px" style="height: 560px">
+                    <audio class="audio" controls autoplay>
+                            <source src="ms/hpbd.MP3" type="audio/ogg" />
+                            <source src="ms/hppd.MP3" type="audio/mpeg" />
+                            <a href="#">horse</a>
+                        </audio>
+                </div>
+                <div class="containeri">
+                    <img class="img img-responsive flip" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/149376642_877090602863098_8129048500062711612_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=0debeb&_nc_ohc=ST8eRnNk_XkAX9WXqmH&_nc_ht=scontent.fhan5-7.fna&oh=8427bc30d8e945982cffab3ee54ade74&oe=61736FF5">
+                    <img class="img img-responsive mt-25 flip" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.6435-9/132820045_846869902551835_8289766067613194974_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=0debeb&_nc_ohc=M128RB4Y9ngAX8B0W6w&_nc_ht=scontent.fhan5-6.fna&oh=01358cda35080a4ea054d35942a08029&oe=61729041">
+                    <img class="img img-responsive mt-25 flip" src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.6435-9/164016867_902273287011496_7608680079947596657_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=0debeb&_nc_ohc=ZGgykWrTRA4AX_CMp4i&_nc_ht=scontent.fhan5-2.fna&oh=99277815e72cb773a5f39d1362472b7c&oe=61731BFA">
+                    <img class="img img-responsive mt-25 flip" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.6435-9/193203613_946573492581475_1357260936154223448_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=G7cXZP1WXQUAX97xXD_&_nc_ht=scontent.fhan5-7.fna&oh=fbd89a7066a23957f789de4db5e254bf&oe=61730A19">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="container-fluid footer navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                </div>
+                <div class="col-xs-4">
+                    <p class="text-center text-capitalize kp">HAPPY BIRTHDAY TO YOU! </p>
+                    <img class="img img-responsive" src="img/title.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onload = function() {
+            document.getElementById("my_audio").play();
+        }
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/snowstorm-min.js"></script>
+    <script src="js/js01.js"></script>
+
+</body>
+
+</html>
